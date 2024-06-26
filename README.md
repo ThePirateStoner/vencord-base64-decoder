@@ -27,13 +27,13 @@ npm i -g pnpm
 pnpm i
 ```
 5. Build Vencord (For Desktop) or (For Browser)
-# Desktop
-```
-pnpm build
-```
 # Browser
 ```
 pnpm buildWeb
+```
+# Desktop
+```
+pnpm build
 ```
 6. Install Vencord to your chosen branch (If you already have it installed uninstall then reinstall)
 ```
