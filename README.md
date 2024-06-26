@@ -50,7 +50,7 @@ cd userplugins
 ```
 git clone https://github.com/ThePirateStoner/vencord-base64-decoder.git
 ```
-10. rebuild vencrd
+10. rebuild vencord
 ```
 pnpm build
 ```
