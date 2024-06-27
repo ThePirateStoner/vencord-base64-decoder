@@ -50,7 +50,7 @@ function isValidUtf8String(str) {
 }
 
 function findBase64Strings(content) {
-    const base64Regex = /(?:[A-Za-z0-9+/]{4}){2,}(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?/g;
+    const base64Regex = /\b[A-Za-z0-9+/]{4,}(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?\b/g;
     const matches = content.match(base64Regex);
     return matches || [];
 }
