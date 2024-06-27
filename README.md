@@ -9,7 +9,7 @@ This is a third-party-plugin for [Vencord](https://vencord.dev/) that decodes Ba
 -  Decode Base64 Messages in Discord.
 
 # How to use
-Hover over any message with Base64 in it and press the button (or left click to copy)
+Hover over any message with Base64 in it and press the button (or right click to copy)
 
 ![Discord_DqXtBsHOjT](https://github.com/ThePirateStoner/vencord-base64-decoder/assets/173967385/35a118ab-6a53-4182-bf1e-495d30ad9c75)
 
